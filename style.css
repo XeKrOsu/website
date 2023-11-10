@@ -7,3 +7,7 @@ body {
   color: black;
   font-family: Verdana;
 }
+.social-buttons img {
+   width: 30px;
+   height: auto;
+}
