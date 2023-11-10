@@ -7,8 +7,3 @@ body {
   color: black;
   font-family: Verdana;
 }
-
-.social-buttons img {
-    width: 30px; /* Remplacez 30px par la largeur souhaitée */
-    height: auto; /* Pour conserver le ratio hauteur/largeur */
-}
