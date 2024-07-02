@@ -7,10 +7,14 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 20px; /* Ajout de marge intérieure */
 }
 
 .gallery-container {
     text-align: center;
+    margin: 0 auto; /* Centrer la galerie */
+    max-width: 1200px; /* Limiter la largeur maximale */
+    padding: 20px; /* Ajout de marge intérieure */
 }
 
 h1 {
@@ -70,4 +74,13 @@ h1 {
 .title {
     margin-top: 10px;
     font-size: 14px;
+}
+
+.title a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title a:hover {
+    text-decoration: underline;
 }
