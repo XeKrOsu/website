@@ -2,12 +2,9 @@ body {
     background-color: #222;
     color: #fff;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
     padding: 20px; /* Ajout de marge intérieure */
+    overflow-y: auto; /* Activer le défilement vertical */
 }
 
 .gallery-container {
