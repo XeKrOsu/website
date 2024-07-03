@@ -23,8 +23,8 @@ h1 {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes par défaut */
 }
 
 .gallery-item {
@@ -83,4 +83,17 @@ h1 {
 
 .title a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries pour différentes tailles d'écran */
+@media (max-width: 1200px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 colonnes pour les écrans de moins de 1200px */
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery {
+        grid-template-columns: 1fr; /* 1 colonne pour les écrans de moins de 768px */
+    }
 }
