@@ -82,6 +82,12 @@ h1 {
     text-decoration: underline;
 }
 
+.star {
+    position: absolute;
+    right: 0; /* Place l'étoile à droite */
+    color: gold; /* Couleur de l'étoile */
+}
+
 /* Media Queries pour différentes tailles d'écran */
 @media (max-width: 1200px) {
     .gallery {
