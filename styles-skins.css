@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px; /* Ajout de marge intérieure */
-    overflow-y: auto; /* Activer le défilement vertical */
+    overflow-x: hidden; /* Empêcher le défilement horizontal */
 }
 
 .gallery-container {
