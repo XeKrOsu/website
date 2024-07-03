@@ -85,7 +85,7 @@ h1 {
 
 .star {
     position: absolute;
-    right: 0; /* Place l'étoile à droite */
+    left: 0; /* Place l'étoile à droite */
     color: gold; /* Couleur de l'étoile */
 }
 
